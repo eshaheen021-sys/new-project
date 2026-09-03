@@ -1,0 +1,58 @@
+.one{
+    border-bottom: 5px solid red;
+    color: red;
+    
+}
+
+.two{
+    border-bottom: 5px solid green;
+    color: green;
+}
+
+.three{
+    border-bottom: 5px solid blue;
+    color: blue;
+}
+
+.four{
+    border-bottom: 5px solid black;
+    color: black;
+}
+
+.one,
+.two,
+.three,
+.four{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    display :inline-block;
+    float: none;
+    width: 100px;
+    margin: 20px;
+    background-color: #eee;
+    text-shadow: 1px 1px 10px black;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.prent{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+
+p{
+    background-color: #eee;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    /*overflow: auto;*/
+    text-transform:lowercase;
+    letter-spacing: 2px;
+    text-indent: 5px;
+    line-height: 1.6;
+    word-break: break-all;
+   font-weight: bold;
+}

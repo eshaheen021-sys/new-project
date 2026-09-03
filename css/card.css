@@ -1,0 +1,29 @@
+.wrapper{
+    background:blueviolet;
+    height:250px;
+    width:250px
+}
+
+.wrapper .card{
+    flex:1;
+    height:100%;
+    overflow:hidden;
+    background: blueviolet;
+    border: 1px solid #fff;
+}
+
+.card p{
+    min-width:13rem;
+    text-transform:uppercase;
+    transform:rotate(-90deg);
+     transition: 0.3s ease;
+}
+
+.card:hover{
+    flex:4;
+
+}
+
+.card:hover p{
+    transform: rotate(0deg);
+}

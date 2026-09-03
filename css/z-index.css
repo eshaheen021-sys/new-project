@@ -1,0 +1,36 @@
+
+div{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    position: absolute; /*دي بتخليهم تحت بعض بس لزم الو عاوز ااعيد ترتبهم استخدم z-index*/
+}
+
+.one{
+    background-color: red;
+    z-index: 3;
+}
+
+.two{
+    background-color: green;
+    z-index: 2;
+    left: 15px;
+    top: 15px;
+}
+
+.three{
+    background-color: blue;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+}
+
+.card::after{
+    position:absolute;
+    content:'';
+    width:200%;
+    height:200%;
+    
+}

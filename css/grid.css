@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    display: inline-block;
+    
+}
+
+.page{
+    background-color: #eee;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10 1fr); /* اسمنا الصفحه ل10 عوميد*/
++   grid-template rows: 5px;px auto 50px ;
+    grid-template-areas: 
+    "logo logo nav nav nav nav nav nav nav nav" 
+    "cont cont cont cont cont cont cont cont side side  "
+    "foot foot foot foot foot foot foot foot foot foot ";
+    
+
+}
+
+h2{
+    grid-area: logo;
+    background-color: blue;
+}
+
+nav{
+    grid-area: nav;
+    background-color: blueviolet;
+    color: white;
+}
+
+section{
+    grid-area: cont;
+    background-color: aqua;
+}
+
+aside{
+    grid-area: side;
+    background-color: brown;
+}
+
+footer{
+    grid-area: foot;
+    background-color: rgb(226, 86, 43);
+}

@@ -1,0 +1,23 @@
+div{
+    color: white;
+    width: px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    
+}
+
+.one{
+    background-color: red;
+    
+    
+}
+
+.two{
+    background-color: green;
+}
+
+body{
+    min-height: 5000px;
+}

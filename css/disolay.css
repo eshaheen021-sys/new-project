@@ -1,0 +1,14 @@
+div{
+   background-color: brown;
+   padding: 5%;
+   margin: 5%;
+   width: 200px;
+   height: 10px;
+}
+
+span{
+    background-color: bisque;
+    padding: 5%;
+    margin: 1%;
+    display: inline-block;
+}

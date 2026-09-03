@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex div {
+  display: flex;          /* تفعيل الـ Flexbox */
+  gap: 10px;              /* مسافة بين العناصر */
+  justify-content: center; /* محاذاة العناصر في النص */
+  align-items: center;    /* محاذاة رأسية */
+  width:auto;
+  background: #3d0f0f;
+}
+
+.flex{
+  background: #4caf50;
+  color: white;
+  flex-flow: column;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.flex1{
+  background-color: #eee;
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.flex1 div{
+  background-color: red;
+  color: white;
+  width: 80px;
+  text-align: center;
+  padding: 20px;
+  margin-right: 5px;
+  flex-grow: 1;
+  flex-basis: 100px;
+  flex-wrap:wrap;
+ 
+  
+}
+
+h1{
+  font-family: "noto sans",sans-serif;
+  color: white;
+  background-image: url(../bmw-logo-pictures-se1vbvsy1a9wgx48.jpg);
+  background-size: cover;
+  background-clip: text;
+  color:transparent;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+  to{
+    background-position-x: -500px;
+  }
+}
+
+img{
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+img:hover{
+  filter:grayscale(0)
+}
+

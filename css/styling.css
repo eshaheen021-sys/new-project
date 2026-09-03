@@ -1,0 +1,96 @@
+ul{
+    list-style: none;
+    padding-left:0 ;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table th{
+    padding: 10px;
+    background-color:black;
+    color: white;
+    
+}
+
+table td{
+    padding: 15px;
+    background-color: #eee;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: red;
+}
+
+.ch:checked + label{
+color :red;
+}
+
+p::first-letter{
+display: inline-block;
+background-color: black;
+color: blue;
+font-size:20px;
+font-weight: bold;
+}
+
+p::first-line{
+display: inline-block;
+background-color: black;
+color: blue;
+font-size:20px;
+font-weight: bold;
+}
+
+p::selection{
+background-color: black;
+color: rgb(94, 255, 0);
+
+}
+
+p::after{
+    content: counter(members-counter);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    right: -2px;
+}
+
+button{
+    background-color: red;
+    color: #eee;
+    margin: 20px;
+    width: 130px;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 10px red;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    box-shadow:7px 7px 5px 1px black , 10px 10px 8px 1px red;
+    box-sizing: content-box;
+     transition-duration: 0.5s ;
+    transition-delay: 0;
+    transition-property:all;
+}
+
+button:hover{
+     margin: 10px;
+    width: 160px;
+    height: 150x;
+}

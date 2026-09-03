@@ -1,0 +1,53 @@
+.one{
+    background-color: blue;
+    width: 200px;
+    padding: 10PX;
+    margin: 5px;
+    text-align: center;
+    transition-duration: 0.5s ;
+    transition-delay: 0;
+    transition-property: all;
+}
+
+.one:hover{
+    margin: 10px;
+    width: 150px;
+    height: 20px;
+}
+
+.two{
+    background-color: blueviolet;
+    width: 200px;
+    padding: 10PX;
+    margin: 5px;
+    text-align: center;
+     transition-duration: 0.5s ;
+    transition-delay: 0;
+    transition-property: all;
+}
+
+.two:hover{
+    margin: 10px;
+    width: 150px;
+    height: 20px;
+}
+
+.three{
+    background-color: brown;
+    width: 200PX;
+    padding: 10PX;
+    margin: 5px;
+    text-align: center;
+     transition-duration: 0.5s ;
+    transition-delay: 0;
+    transition-property: all;
+}
+
+.three:hover{
+    margin: 10px;
+    width: 150px;
+    height: 20px;
+}
+
+
+

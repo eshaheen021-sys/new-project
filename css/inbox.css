@@ -1,0 +1,25 @@
+.h {
+    color: red;
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin-left: 20%;
+    border-width: 20%;
+    border: 10px solid red;
+    border-radius: 30px;
+    outline: 10px solid blue;
+
+}
+
+.div {
+    background-image: url(../bmw-logo-pictures-se1vbvsy1a9wgx48.jpg);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.div2 {
+    color: blue;
+}
